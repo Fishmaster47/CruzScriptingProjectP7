@@ -1,0 +1,4 @@
+repository "P7CruzScriptingProject/P7CruzScriptingProject@20067644808813@cloud"
+  path "/"
+    br "/main"
+    co "/main"
