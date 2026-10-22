@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+    int myInt = 5;
+
     void Start()
     {
-        
+
+        Debug.Log(myInt);
+
+        myInt = MultiplyByTwo(myInt);
+        Debug.Log(myInt); 
     }
 
-    // Update is called once per frame
+   // multiplybytwo
+    int MultiplyByTwo(int number)
+    {
+        int result = number * 2;
+        return result;
+    }
+
     void Update()
     {
-        
+        // ok
     }
 }
